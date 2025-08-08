@@ -23,25 +23,27 @@ function paridad(num) {
 //PUNTO 4
 function peorparidad(num){
     if (num == 1){
-        return "impar";
+        return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 2){
-        return "par";
+        return "" + "p" + "a" + "r";
     }else if (num == 3){
-        return "impar";
+        return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 4){
-        return "par";
+        return "" + "p" + "a" + "r";
     }else if (num == 5){
-        return "impar";
+        return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 6){
-        return "par";
+        return "" + "p" + "a" + "r";
     }else if (num == 7){
-        return "impar";
+        return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 8){
-        return "par";
+        return "" + "p" + "a" + "r";
     }else if (num == 9){
-        return "impar";
+        return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 10){
-        return "par";
+        return "" + "p" + "a" + "r";
+    }else{
+        return "numero fuera de rango";
     }
 }
 
