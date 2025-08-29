@@ -1,6 +1,5 @@
 
 // Punto 1
-// findMax(lista) -> retorna el mayor valor de la lista
 function findMax(nums) {
   if (!nums || nums.length === 0){
     console.log("La lista está vacía");
@@ -15,7 +14,7 @@ function findMax(nums) {
   return max;
 }
 
-
+// Punto 2
 function includes(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] === target) {
@@ -25,7 +24,7 @@ function includes(nums, target) {
   return false;
 }
 
-
+// Punto 3
 function sum(nums) {
   let total = 0;
   for (let i = 0; i < nums.length; i++) {
