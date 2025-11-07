@@ -1,6 +1,9 @@
 
 // Punto 1
 
+
+
+
 function desglosarString(str, tipo) {
     if (typeof str !== "string") return 0;
     if (tipo !== "vocales" && tipo !== "consonantes") return 0;

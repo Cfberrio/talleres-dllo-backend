@@ -1,9 +1,9 @@
 //PUNTO 1
-function Farenheit (C) {
+function convertidorTemp(C) {
     return (C * 9/5) + 32;
 }
 //PUNTO 2
-function formulageneral(a, b, c, pos) {
+function resolvedor(a, b, c, pos) {
     if (pos == true) {
         return (-b() + Math.sqrt(b() * b() - 4 * a() * c())) / (2 * a());
     } else {
@@ -12,7 +12,7 @@ function formulageneral(a, b, c, pos) {
 }
 
 // PUNTO 3 
-function paridad(num) {
+function mejorParidad(num) {
     if (num % 2 == 0){
         return "par";
     }else{
@@ -21,7 +21,7 @@ function paridad(num) {
 }
 
 //PUNTO 4
-function peorparidad(num){
+function peorParidad(num){
     if (num == 1){
         return "" + "i" + "m" + "p" + "a" + "r";
     }else if (num == 2){
