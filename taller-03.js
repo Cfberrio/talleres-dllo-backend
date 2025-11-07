@@ -84,9 +84,17 @@ function desglosarString(str, tipo) {
   }
   
 
+if (require.main === module) {
   console.log(desglosarString("murcielagos", "vocales"));          
   console.log(desglosarString("murcielagos", "consonantes"));       
   console.log(twoSum([2,7,11,15], 9));                              
   console.log(conversionRomana("XIV"));                             
   console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu")); 
-  
+}
+
+module.exports = {
+  desglosarString,
+  twoSum,
+  conversionRomana,
+  descomposicion
+};
